@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="weatherMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudy" translatesAutoresizingMaskIntoConstraints="NO" id="Ia5-Tj-KXd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZP-AA-Jms">
+                                <rect key="frame" x="20" y="165" width="374" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cWN-D3-6h5">
+                                <rect key="frame" x="0.0" y="561" width="414" height="335"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="tuQ-XF-Xfw">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="335"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="81h-U2-wCO">
+                                            <rect key="frame" x="35" y="116" width="345" height="72"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🥶" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsq-Ph-FOS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="65" height="72"/>
+                                                    <gestureRecognizers/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="7ti-jX-nqL" appends="YES" id="LeR-ez-LuK"/>
+                                                    </connections>
+                                                </label>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFC-ba-dBH">
+                                                    <rect key="frame" x="70" y="0.0" width="65" height="72"/>
+                                                    <gestureRecognizers/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="fID-W2-IEq" appends="YES" id="XWx-1y-2lX"/>
+                                                    </connections>
+                                                </label>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="☹️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMO-Do-yEN">
+                                                    <rect key="frame" x="140" y="0.0" width="65" height="72"/>
+                                                    <gestureRecognizers/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="Mn9-0s-fv7" appends="YES" id="hsq-af-sHi"/>
+                                                    </connections>
+                                                </label>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="☺️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLx-vM-bEE">
+                                                    <rect key="frame" x="210" y="0.0" width="65" height="72"/>
+                                                    <gestureRecognizers/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="9lR-4v-Gkm" appends="YES" id="tIw-FG-OW2"/>
+                                                    </connections>
+                                                </label>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4o-0a-SW7">
+                                                    <rect key="frame" x="280" y="0.0" width="65" height="72"/>
+                                                    <gestureRecognizers/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="9eR-I9-QSA" appends="YES" id="khr-Ma-p3y"/>
+                                                    </connections>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you feeling today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ukm-LD-voN">
+                                            <rect key="frame" x="8" y="8" width="398" height="31.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="398" id="MCf-3u-tqP"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Ukm-LD-voN" firstAttribute="leading" secondItem="tuQ-XF-Xfw" secondAttribute="leading" constant="8" id="BNQ-WR-HZd"/>
+                                        <constraint firstItem="Ukm-LD-voN" firstAttribute="top" secondItem="tuQ-XF-Xfw" secondAttribute="top" constant="8" id="Drc-Yu-tsA"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ukm-LD-voN" secondAttribute="trailing" constant="8" id="Wcn-g7-noh"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vxa-xS-iCt">
+                                <rect key="frame" x="119" y="157" width="192" height="0.0"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="93"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ia5-Tj-KXd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="DJ1-rC-dcV"/>
+                            <constraint firstItem="Ia5-Tj-KXd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ECC-0i-M4y"/>
+                            <constraint firstItem="TZP-AA-Jms" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Gg4-uY-vbo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vxa-xS-iCt" secondAttribute="trailing" constant="103" id="Kl3-23-9vh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ia5-Tj-KXd" secondAttribute="trailing" id="LGr-h2-KeK"/>
+                            <constraint firstItem="vxa-xS-iCt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="Z8X-Q0-BDP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ia5-Tj-KXd" secondAttribute="bottom" constant="-34" id="bD6-Rb-sGc"/>
+                            <constraint firstItem="TZP-AA-Jms" firstAttribute="top" secondItem="vxa-xS-iCt" secondAttribute="bottom" constant="8" id="sAw-t2-DD4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TZP-AA-Jms" secondAttribute="trailing" constant="20" id="tz7-f2-ZKC"/>
+                            <constraint firstItem="vxa-xS-iCt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="113" id="uEt-3b-5yf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="detail" destination="TZP-AA-Jms" id="3OE-dD-fwU"/>
+                        <outlet property="gratitudeLabel" destination="Ukm-LD-voN" id="2aA-K4-UD9"/>
+                        <outlet property="stackView" destination="81h-U2-wCO" id="IjL-72-9KB"/>
+                        <outlet property="temperature" destination="vxa-xS-iCt" id="WLN-xM-ObC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="9lR-4v-Gkm" userLabel="happy">
+                    <connections>
+                        <action selector="pressedhappy:" destination="BYZ-38-t0r" id="Wac-bb-7fU"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="fID-W2-IEq" userLabel="hot">
+                    <connections>
+                        <action selector="pressedHot:" destination="BYZ-38-t0r" id="RNR-ft-TEe"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="9eR-I9-QSA" userLabel="tired">
+                    <connections>
+                        <action selector="pressedTired:" destination="BYZ-38-t0r" id="Jp4-2f-UIY"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="7ti-jX-nqL" userLabel="cold">
+                    <connections>
+                        <action selector="pressedCold:" destination="BYZ-38-t0r" id="sbb-d2-u9Y"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Mn9-0s-fv7" userLabel="sad">
+                    <connections>
+                        <action selector="pressedSad:" destination="BYZ-38-t0r" id="oAc-fR-e24"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-400.00000000000006" y="54.910714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloudy" width="1824" height="2736"/>
+    </resources>
+</document>
