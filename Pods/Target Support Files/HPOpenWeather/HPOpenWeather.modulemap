@@ -1,4 +1,4 @@
-module HPOpenWeather {
+framework module HPOpenWeather {
   umbrella header "HPOpenWeather-umbrella.h"
 
   export *

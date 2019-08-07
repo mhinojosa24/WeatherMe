@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2E9C435349D8D7A7089A710F8DC5A2AB"
-               BuildableName = "libHPOpenWeather.a"
+               BuildableName = "HPOpenWeather.framework"
                BlueprintName = "HPOpenWeather"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

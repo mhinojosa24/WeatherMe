@@ -1,4 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-weatherMe/Pods-weatherMe-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/OpenWeatherSwift/OpenWeatherSwift.framework
-${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/HPOpenWeather/HPOpenWeather.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework

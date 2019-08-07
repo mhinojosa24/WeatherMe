@@ -1,4 +1,4 @@
-module Pods_weatherMe {
+framework module Pods_weatherMe {
   umbrella header "Pods-weatherMe-umbrella.h"
 
   export *

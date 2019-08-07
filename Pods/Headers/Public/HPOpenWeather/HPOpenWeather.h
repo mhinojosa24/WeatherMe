@@ -1,1 +1,0 @@
-../../../HPOpenWeather/Sources/HPOpenWeather.h

@@ -1,16 +1,26 @@
 PODS:
   - HPOpenWeather (2.0.2)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RealmSwift (3.17.3):
+    - Realm (= 3.17.3)
 
 DEPENDENCIES:
   - HPOpenWeather
+  - RealmSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - HPOpenWeather
+    - Realm
+    - RealmSwift
 
 SPEC CHECKSUMS:
   HPOpenWeather: b83b80fa332b4676c6e6af72c80fb8c42c71eac4
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
 
-PODFILE CHECKSUM: 1fc0832baeb251a2484adc89837f9952770c9220
+PODFILE CHECKSUM: 561431774fd3dbf49d292fe1850603424f43971d
 
 COCOAPODS: 1.7.2
